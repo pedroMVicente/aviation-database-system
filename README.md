@@ -1,6 +1,10 @@
 # Aviation Database System
 
 A comprehensive database system for managing airline operations, including airports, aircraft, flights, ticket sales, and passenger check-ins. Built with PostgreSQL and a RESTful API for programmatic access.
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
+![License](https://img.shields.io/badge/License-Academic-blue)
 
 ## 📋 Project Overview
 
