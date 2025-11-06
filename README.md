@@ -1,4 +1,4 @@
-# ✈️ Aviation Database System
+# Aviation Database System
 
 A comprehensive database system for managing airline operations, including airports, aircraft, flights, ticket sales, and passenger check-ins. Built with PostgreSQL and a RESTful API for programmatic access.
 
