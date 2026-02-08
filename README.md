@@ -5,7 +5,7 @@ A comprehensive database system for managing airline operations, including airpo
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
 
-## 📋 Project Overview
+## Project Overview
 
 This project implements a complete relational database system for an aviation company that operates across multiple international airports. The system handles:
 
@@ -15,7 +15,7 @@ This project implements a complete relational database system for an aviation co
 - **Sales System**: Ticket purchases and reservations
 - **Check-in Process**: Seat assignments and boarding passes
 
-## 🗂️ Database Schema
+## Database Schema
 
 ### Core Tables
 
@@ -28,10 +28,10 @@ This project implements a complete relational database system for an aviation co
 
 ### Key Features
 
-- ✅ **Integrity Constraints**: Enforced business rules through triggers
-- ✅ **Data Consistency**: Foreign keys and check constraints
-- ✅ **Normalization**: BCNF-compliant schema design
-- ✅ **Security**: SQL injection prevention in API layer
+- **Integrity Constraints**: Enforced business rules through triggers
+- **Data Consistency**: Foreign keys and check constraints
+- **Normalization**: BCNF-compliant schema design
+- **Security**: SQL injection prevention in API layer
 
 ## 🛠️ Implementation Components
 
@@ -78,11 +78,11 @@ A RESTful API built with Flask/Python providing:
 | POST | `/checkin/<bilhete>/` | Check-in and assign seat automatically |
 
 **Features**:
-- 🔒 SQL injection prevention
-- 🔄 Transaction support for atomicity
-- ✅ Proper HTTP methods and status codes
-- 📋 Well-structured JSON responses
-- ⚠️ Explicit error messages
+- SQL injection prevention
+- Transaction support for atomicity
+- Proper HTTP methods and status codes
+- Well-structured JSON responses
+- Explicit error messages
 
 ### 6. Materialized View (2 points)
 
@@ -116,7 +116,7 @@ Strategic indexing for query performance:
 - Balanced optimization across all analytics queries
 - Theoretical justification and practical demonstration
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -150,7 +150,7 @@ python app.py
 
 The API will be available at `http://localhost:5000`
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 .
@@ -166,7 +166,7 @@ The API will be available at `http://localhost:5000`
 └── README.md
 ```
 
-## 🧪 Testing
+## Testing
 
 ### Test Queries
 
@@ -198,14 +198,14 @@ curl -X POST http://localhost:5000/compra/123/ \
 
 ## 📊 Key Achievements
 
-- ✅ Comprehensive relational database design
-- ✅ 30,000+ realistic ticket records
-- ✅ RESTful API with 5 functional endpoints
-- ✅ Advanced OLAP analytics queries
-- ✅ Optimized with strategic indexes
-- ✅ Full transaction support and security measures
+- Comprehensive relational database design
+- 30,000+ realistic ticket records
+- RESTful API with 5 functional endpoints
+- Advanced OLAP analytics queries
+- Optimized with strategic indexes
+- Full transaction support and security measures
 
-## 🎓 Academic Context
+## Academic Context
 
 This project was developed as part of the Database Systems course at Instituto Superior Técnico, Universidade de Lisboa (2024/25).
 
@@ -213,7 +213,7 @@ This project was developed as part of the Database Systems course at Instituto S
 - Part 1: E-R Model, Relational Model, Relational Algebra
 - Part 2: Implementation, API, Analytics, Optimization
 
-## 📚 Technologies Used
+## Technologies Used
 
 - **Database**: PostgreSQL 12+
 - **Backend**: Python 3.8+, Flask
@@ -221,15 +221,15 @@ This project was developed as part of the Database Systems course at Instituto S
 - **Tools**: Jupyter Notebook, psycopg2
 - **Deployment**: Docker environment
 
-## 🔧 Development Environment
+## Development Environment
 
 The project uses the [db-workspace](https://github.com/bdist/db-workspace) Docker environment for testing and development.
 
-## 📝 License
+## License
 
 This is an academic project. Please respect academic integrity policies if you're a student working on a similar assignment.
 
-## 👥 Contributors
+## Contributors
 
 This project was developed by a team of 3 students as part of the course requirements.
 
