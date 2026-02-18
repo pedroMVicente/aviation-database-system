@@ -33,7 +33,7 @@ This project implements a complete relational database system for an aviation co
 - **Normalization**: BCNF-compliant schema design
 - **Security**: SQL injection prevention in API layer
 
-## 🛠️ Implementation Components
+## Implementation Components
 
 ### 1. Entity-Relationship Model
 - Comprehensive E-R diagram representing the aviation domain
@@ -196,7 +196,7 @@ curl -X POST http://localhost:5000/compra/123/ \
   ]}'
 ```
 
-## 📊 Key Achievements
+## Key Achievements
 
 - Comprehensive relational database design
 - 30,000+ realistic ticket records
@@ -224,15 +224,3 @@ This project was developed as part of the Database Systems course at Instituto S
 ## Development Environment
 
 The project uses the [db-workspace](https://github.com/bdist/db-workspace) Docker environment for testing and development.
-
-## License
-
-This is an academic project. Please respect academic integrity policies if you're a student working on a similar assignment.
-
-## Contributors
-
-This project was developed by a team of 3 students as part of the course requirements.
-
----
-
-**Note**: This system demonstrates practical application of database design principles, including normalization, integrity constraints, transaction management, and query optimization for real-world aviation operations.
